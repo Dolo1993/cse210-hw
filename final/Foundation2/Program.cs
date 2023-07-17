@@ -178,7 +178,8 @@ public class Program
         Order order = new Order(products, customer);
 
          
-        Console.WriteLine();
+        Console.WriteLine(); 
+        Console.WriteLine(); 
         Console.WriteLine(order.GetPackingLabel());
         Console.WriteLine(order.GetShippingLabel());
         Console.WriteLine($"Total Cost: ${order.CalculateTotalCost()}"); 

@@ -60,6 +60,7 @@ public class Video
         {
             Console.WriteLine("Commenter: " + comment.GetCommenterName());
             Console.WriteLine("Comment Text: " + comment.GetCommentText());
+            Console.WriteLine(); 
             Console.WriteLine();
         }
     }
